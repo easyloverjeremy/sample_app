@@ -8,12 +8,15 @@ gem 'rails', '3.2.8'
 gem 'sqlite3'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.10.1'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.10.0'
   gem 'webrat', '0.7.1'
+  gem 'autotest', '4.4.6'
+  gem 'autotest-growl', '0.2.16'
+  gem 'autotest-fsevent', '0.2.8'
 end
 
 
